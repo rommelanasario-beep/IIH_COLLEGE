@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: iih-college-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: iih_college
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - iih_pgdata:/var/lib/postgresql/data
+
+volumes:
+  iih_pgdata:
