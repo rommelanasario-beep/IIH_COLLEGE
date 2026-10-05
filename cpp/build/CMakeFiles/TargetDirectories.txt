@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/downloads/iih-college-website/cpp/build/CMakeFiles/iih_college_engine.dir
+/data/data/com.termux/files/home/downloads/iih-college-website/cpp/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/downloads/iih-college-website/cpp/build/CMakeFiles/rebuild_cache.dir
